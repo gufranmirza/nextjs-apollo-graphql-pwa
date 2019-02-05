@@ -1,15 +1,16 @@
 {
   "name": "nextjs-pwa",
   "version": "0.1.0",
-  "main": "server.js",
+  "main": "server/server.js",
   "scripts": {
     "build": "next build",
-    "dev": "next dev",
+    "dev": "node server/server.js",
     "dev:next": "next",
-    "start": "NODE_ENV=production next",
+    "start": "NODE_ENV=production node server/server.js",
+    "start:next": "next start",
+    "lint": "eslint --fix '{pages,server}/**/*.js'",
     "bundle:analyze": "ANALYZE_BUNDLE=true yarn dev",
     "bundle:view": "webpack-bundle-analyzer .next/stats.json",
-    "lint": "eslint --fix '{pages}/**/*.js'",
     "lint-staged": "lint-staged",
     "precommit": "lint-staged"
   },
