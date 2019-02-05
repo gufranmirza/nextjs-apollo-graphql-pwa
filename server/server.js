@@ -4,6 +4,7 @@ const next = require('next');
 const compression = require('compression');
 
 const logger = require('./loging');
+const router = require('../routes');
 
 const isDev = process.env.NODE_ENV !== 'production';
 const ngrok = isDev && process.env.ENABLE_TUNNEL ? require('ngrok') : null;
@@ -16,11 +17,33 @@ const port = parseInt(process.env.PORT, 10) || 3000;
 const app = next({ dev: isDev });
 const handle = app.getRequestHandler();
 
+const renderRoutes = function renderRoutes(req, res, pagePath, queryParams) {
+  app
+    .renderToHTML(req, res, pagePath, queryParams)
+    .then(html => {
+      res.send(html);
+    })
+    .catch(err => {
+      app.renderError(err, req, res, pagePath, queryParams);
+    });
+};
+
+const routerHandler = router.getRequestHandler(
+  app,
+  ({ req, res, route, query }) => {
+    renderRoutes(req, res, route.page, query);
+  }
+);
+
 app.prepare().then(() => {
   const server = express();
 
   server.use(compression({ threshold: 0 }));
 
+  // Set up reouter handler by Next.JS
+  server.use(routerHandler);
+
+  // Server All routes
   server.get('*', (req, res) => handle(req, res));
 
   server.listen(port, host, err => {

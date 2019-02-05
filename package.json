@@ -22,7 +22,7 @@
     "isomorphic-fetch": "2.2.1",
     "localforage": "1.5.0",
     "next": "beta",
-    "next-url-prettifier": "1.1.4",
+    "next-routes": "^1.4.2",
     "prop-types": "15.5.10",
     "react": "15.6.1",
     "react-dom": "15.6.1",
@@ -45,8 +45,7 @@
     "boilerplate",
     "apollo",
     "styled-components",
-    "ran",
-    "run"
+    "nextjs-pwa"
   ],
   "engines": {
     "node": ">=7.6.0"
@@ -74,7 +73,6 @@
     "nodemon": "1.11.0",
     "pre-commit": "1.2.2",
     "prettier": "1.4.4",
-    "remote-redux-devtools": "^0.5.12",
     "webpack-bundle-analyzer": "2.8.2"
   }
 }
