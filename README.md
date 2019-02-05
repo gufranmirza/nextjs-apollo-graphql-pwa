@@ -1,4 +1,4 @@
-[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://github.com/gufranmirza/nextjs-apollo-grapghql-pwa)
+[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/gufranmirza/nextjs-apollo-grapghql-pwa)
 
 ## React NextJS Apollo GraphQL Boilerplate
 
