@@ -8,7 +8,10 @@
     "dev:next": "next",
     "start": "NODE_ENV=production next",
     "bundle:analyze": "ANALYZE_BUNDLE=true yarn dev",
-    "bundle:view": "webpack-bundle-analyzer .next/stats.json"
+    "bundle:view": "webpack-bundle-analyzer .next/stats.json",
+    "lint": "eslint --fix '{pages}/**/*.js'",
+    "lint-staged": "lint-staged",
+    "precommit": "lint-staged"
   },
   "dependencies": {
     "chalk": "1.1.3",

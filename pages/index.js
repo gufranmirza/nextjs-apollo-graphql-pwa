@@ -1,7 +1,8 @@
-import { Helmet } from 'react-helmet';
+import React from 'react';
 
-export default (() =>
+const Index = () =>
   <div>
     <center><h1>Hello There</h1></center>
-  </div>
-);
+  </div>;
+
+export default Index;
