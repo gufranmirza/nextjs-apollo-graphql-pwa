@@ -1,8 +1,11 @@
 import React from 'react';
 
-const Index = () =>
+const Index = () => (
   <div>
-    <center><h1>Hello There</h1></center>
-  </div>;
+    <center>
+      <h1>Hello There</h1>
+    </center>
+  </div>
+);
 
 export default Index;

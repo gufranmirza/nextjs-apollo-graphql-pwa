@@ -3,11 +3,10 @@ const express = require('express');
 const next = require('next');
 const compression = require('compression');
 
-const logger = require('./loging');
-const router = require('../routes');
-
 const isDev = process.env.NODE_ENV !== 'production';
 const ngrok = isDev && process.env.ENABLE_TUNNEL ? require('ngrok') : null;
+const logger = require('./loging');
+const router = require('../routes');
 
 const customHost = process.env.HOST;
 const host = customHost || null; // Let http.Server use its default IPv6/4 host
