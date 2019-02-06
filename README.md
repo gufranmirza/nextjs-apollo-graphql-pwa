@@ -2,7 +2,7 @@
 
 ## React NextJS Apollo GraphQL Boilerplate
 
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![license](https://img.shields.io/github/license/sly777/ran.svg)]() [![Build Status](https://travis-ci.com/gufranmirza/nextjs-apollo-grapghql-pwa.svg?branch=master)](https://travis-ci.com/gufranmirza/nextjs-apollo-grapghql-pwa)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![license](https://img.shields.io/github/license/sly777/ran.svg)]() [![Build Status](https://travis-ci.com/gufranmirza/nextjs-apollo-grapghql-pwa.svg?branch=master)](https://travis-ci.com/gufranmirza/nextjs-apollo-grapghql-pwa) [![Greenkeeper badge](https://badges.greenkeeper.io/gufranmirza/nextjs-apollo-grapghql-pwa.svg)](https://greenkeeper.io/)
 
 ## Features
 
