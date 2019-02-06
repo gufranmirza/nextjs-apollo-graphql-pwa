@@ -1,5 +1,8 @@
 [![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/gufranmirza/nextjs-apollo-grapghql-pwa)
 
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![license](https://img.shields.io/github/license/sly777/ran.svg)]() [![Greenkeeper badge](https://badges.greenkeeper.io/gufranmirza/nextjs-apollo-grapghql-pwa.svg)](https://greenkeeper.io/)  [![Build Status](https://travis-ci.com/gufranmirza/nextjs-apollo-grapghql-pwa.svg?branch=master)](https://travis-ci.com/gufranmirza/nextjs-apollo-grapghql-pwa)
+
+
 ## React NextJS Apollo GraphQL Boilerplate
 
 ## Features
