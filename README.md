@@ -4,7 +4,8 @@
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![license](https://img.shields.io/github/license/sly777/ran.svg)]()
 [![Build Status](https://travis-ci.com/gufranmirza/nextjs-apollo-graphql-pwa.svg?branch=master)](https://travis-ci.com/gufranmirza/nextjs-apollo-graphql-pwa)
-[![Greenkeeper badge](https://badges.greenkeeper.io/gufranmirza/nextjs-apollo-grapghql-pwa.svg)](https://greenkeeper.io/) [![Maintainability](https://api.codeclimate.com/v1/badges/91fa04fecfc644091e2d/maintainability)](https://codeclimate.com/github/gufranmirza/nextjs-apollo-graphql-pwa/maintainability)
+[![Greenkeeper badge](https://badges.greenkeeper.io/gufranmirza/nextjs-apollo-graphql-pwa.svg)](https://greenkeeper.io/)
+[![Maintainability](https://api.codeclimate.com/v1/badges/91fa04fecfc644091e2d/maintainability)](https://codeclimate.com/github/gufranmirza/nextjs-apollo-graphql-pwa/maintainability)
 
 ## Features
 
