@@ -17,9 +17,11 @@
   "dependencies": {
     "@babel/plugin-transform-flow-strip-types": "^7.2.3",
     "@zeit/next-sass": "^1.0.1",
+    "apollo-boost": "^0.1.27",
     "chalk": "2.4.2",
     "compression": "1.7.3",
     "express": "4.16.4",
+    "graphql": "^14.1.1",
     "ip": "1.1.5",
     "isomorphic-fetch": "2.2.1",
     "localforage": "1.7.3",
@@ -28,6 +30,7 @@
     "node-sass": "^4.11.0",
     "prop-types": "15.6.2",
     "react": "16.8.1",
+    "react-apollo": "^2.4.1",
     "react-dom": "16.8.1",
     "react-helmet": "^5.2.0",
     "styled-components": "4.1.3"
