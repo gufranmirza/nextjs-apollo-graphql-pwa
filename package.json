@@ -80,6 +80,6 @@
     "nodemon": "1.18.9",
     "pre-commit": "1.2.2",
     "prettier": "1.16.4",
-    "webpack-bundle-analyzer": "3.0.3"
+    "webpack-bundle-analyzer": "3.0.4"
   }
 }
