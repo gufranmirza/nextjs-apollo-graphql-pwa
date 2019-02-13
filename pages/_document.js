@@ -1,3 +1,5 @@
+// @flow
+
 import Document, { Head, Main, NextScript } from 'next/document';
 import Helmet from 'react-helmet';
 import { ServerStyleSheet } from 'styled-components';
