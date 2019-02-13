@@ -28,7 +28,7 @@
     "next": "^8.0.1",
     "next-routes": "^1.4.2",
     "node-sass": "^4.11.0",
-    "prop-types": "15.6.2",
+    "prop-types": "15.7.2",
     "react": "16.8.1",
     "react-apollo": "^2.4.1",
     "react-dom": "16.8.1",
