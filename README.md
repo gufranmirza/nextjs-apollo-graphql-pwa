@@ -13,7 +13,7 @@
 
 - ***Next generation JavaScript***
 
-- ***Next generation CSS (CSS-in-JS)***
+- ***Next generation CSS (CSS-in-JS) & SCSS Support***
 
 - ***SEO***
 
