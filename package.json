@@ -11,7 +11,7 @@
     "lint": "eslint --fix '{pages,server}/**/*.js'",
     "bundle:analyze": "ANALYZE_BUNDLE=true yarn dev",
     "analyze": "cross-env ANALYZE_BUILD=true npm run build",
-    "bundle:view": "webpack-bundle-analyzer .next/stats.json",
+    "bundle:view": "webpack-bundle-analyzer .next/records.json",
     "lint-staged": "lint-staged",
     "precommit": "lint-staged"
   },
