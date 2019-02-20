@@ -1,9 +1,22 @@
-const withSass = require('@zeit/next-sass');
+/* eslint-disable global-require */
+const withSASS = require('@zeit/next-sass');
 
-module.exports = withSass({
-  cssModules: true,
-  cssLoaderOptions: {
-    importLoaders: 1,
-    localIdentName: '[local]___[hash:base64:5]'
+const initExport = {
+  webpack: (config, { isServer }) => {
+    if (process.env.ANALYZE_BUILD) {
+      const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
+      config.plugins.push(
+        new BundleAnalyzerPlugin({
+          analyzerMode: 'server',
+          analyzerPort: isServer ? 8888 : 8889,
+          openAnalyzer: true
+        })
+      );
+    }
+
+    return config;
   }
-});
+};
+
+/* eslint-enable global-require */
+module.exports = withSASS(initExport);
