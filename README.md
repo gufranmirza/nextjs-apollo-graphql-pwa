@@ -7,6 +7,7 @@
 [![Greenkeeper badge](https://badges.greenkeeper.io/gufranmirza/nextjs-apollo-graphql-pwa.svg)](https://greenkeeper.io/)
 [![Maintainability](https://api.codeclimate.com/v1/badges/91fa04fecfc644091e2d/maintainability)](https://codeclimate.com/github/gufranmirza/nextjs-apollo-graphql-pwa/maintainability)
 ![GitLicense](https://gitlicense.com/badge/gufranmirza/nextjs-apollo-graphql-pwa)
+[![dependencies Status](https://david-dm.org/gufranmirza/nextjs-apollo-graphql-pwa/status.svg)](https://david-dm.org/gufranmirza/nextjs-apollo-graphql-pwa)
 
 ## Features
 
