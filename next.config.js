@@ -1,7 +1,7 @@
 /* eslint-disable global-require */
 const withSASS = require('@zeit/next-sass');
 
-const initExport = {
+const initWebpack = {
   webpack: (config, { isServer }) => {
     if (process.env.ANALYZE_BUILD) {
       const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
@@ -19,4 +19,4 @@ const initExport = {
 };
 
 /* eslint-enable global-require */
-module.exports = withSASS(initExport);
+module.exports = withSASS(initWebpack);
