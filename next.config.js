@@ -2,7 +2,16 @@
 const withSASS = require('@zeit/next-sass');
 
 const initWebpack = {
-  webpack: (config, { isServer }) => {
+  webpack: (config, { dev, isServer }) => {
+    if (dev) {
+      config.module.rules.push({
+        test: /\.(jsx?|gql|graphql)$/,
+        loader: 'eslint-loader',
+        exclude: ['/node_modules/', '/.next/', '/.git/'],
+        enforce: 'pre'
+      });
+    }
+
     if (process.env.ANALYZE_BUILD) {
       const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
       config.plugins.push(
