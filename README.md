@@ -20,7 +20,7 @@
 
 - ***SEO friendly - react-helmet provides control of the page title/meta/styles/scripts from within your components.***
 
--***Centralised application configuration with helpers to avoid boilerplate in your code. Also has support for environment specific configuration files.***
+- ***Centralised application configuration with helpers to avoid boilerplate in your code. Also has support for environment specific configuration files.***
 
 - ***Performance-first***
 
