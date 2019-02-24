@@ -18,11 +18,15 @@
 
 - ***Next generation  CSS (CSS-in-JS) & SCSS Support***
 
-- ***SEO***
+- ***SEO friendly - react-helmet provides control of the page title/meta/styles/scripts from within your components.***
+
+-***Centralised application configuration with helpers to avoid boilerplate in your code. Also has support for environment specific configuration files.***
 
 - ***Performance-first***
 
 - ***Preconfigured to deploy to now with a single command.***
+
+- ***Security on the express server using helmet and hpp.***
 
 
 ## How to use
