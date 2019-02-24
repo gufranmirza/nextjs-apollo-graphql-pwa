@@ -16,11 +16,13 @@
 
 - ***Next generation JavaScript***
 
-- ***Next generation CSS (CSS-in-JS) & SCSS Support***
+- ***Next generation  CSS (CSS-in-JS) & SCSS Support***
 
 - ***SEO***
 
 - ***Performance-first***
+
+- ***Preconfigured to deploy to now with a single command.***
 
 
 ## How to use
