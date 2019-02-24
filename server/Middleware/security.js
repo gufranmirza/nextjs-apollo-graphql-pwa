@@ -46,6 +46,12 @@ const cspConfig = {
   }
 };
 
+// In dev we allow 'unsafe-eval', so HMR doesn't trigger the CSP
+// Its open Bug IN NextJS
+if (process.env.NODE_ENV !== 'production') {
+  cspConfig.directives.scriptSrc.push("'unsafe-eval'");
+}
+
 // Add any additional CSP from the static config.
 const cspExtensions = config('cspExtensions');
 Object.keys(cspExtensions).forEach(key => {
