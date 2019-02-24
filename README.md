@@ -12,11 +12,11 @@
 
 ## Features
 
-- ***Instant feedback***
+- ***🔥 Instant feedback***
 
-- ***Next generation JavaScript***
+- ***🚀 Next generation JavaScript***
 
-- ***Next generation  CSS (CSS-in-JS) & SCSS Support***
+- ***🖌 Next generation  CSS (CSS-in-JS) & SCSS Support***
 
 - ***🚄 `express` server.***
 
@@ -26,9 +26,7 @@
 
 - ***⛑ SEO friendly - `react-helmet` provides control of the page title/meta/styles/scripts from within your components.***
 
-- ***Centralised application configuration with helpers to avoid boilerplate in your code. Also has support for environment specific configuration files.***
-
-- ***Performance-first***
+- ***🔧 Centralised application configuration with helpers to avoid boilerplate in your code. Also has support for environment specific configuration files.***
 
 - ***❤️ Preconfigured to deploy to `now` with a single command***
 
