@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet';
 import PropTypes from 'prop-types';
 
 import '../../../static/base.scss';
-import { title } from '../../config';
+import config from '../../config/index';
 import Header from '../../components/Header';
 
 type Props = {
@@ -16,7 +16,7 @@ type Props = {
 const App = ({ children }: Props) => (
   <div>
     <Helmet>
-      <title>{title}</title>
+      <title>{config('title')}</title>
     </Helmet>
     <Header />
     {children}

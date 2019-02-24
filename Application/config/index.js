@@ -6,7 +6,7 @@
  *
  * e.g.
  *   import config from '../config';
- *   config.get('welcomeMessage'); // => "Hello World!"
+ *   config('welcomeMessage'); // => "Hello World!"
  */
 
 // PRIVATES
@@ -84,7 +84,7 @@ function resolveConfigForBrowserOrServer() {
  * an error will be thrown indicating that a respective configuration value
  * could not be found at the given path.
  */
-function get(path) {
+function configGet(path) {
   const parts = typeof path === 'string' ? path.split('.') : path;
 
   if (parts.length === 0) {
@@ -119,4 +119,4 @@ function get(path) {
   return result;
 }
 
-exports.get = get;
+module.exports = configGet;
