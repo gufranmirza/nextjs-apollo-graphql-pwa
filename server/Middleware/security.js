@@ -3,6 +3,7 @@
 const uuid = require('uuid');
 const hpp = require('hpp');
 const helmet = require('helmet');
+const config = require('../../Application/config');
 
 const cspConfig = {
   directives: {
@@ -44,6 +45,18 @@ const cspConfig = {
     ]
   }
 };
+
+// Add any additional CSP from the static config.
+const cspExtensions = config('cspExtensions');
+Object.keys(cspExtensions).forEach(key => {
+  if (cspConfig.directives[key]) {
+    cspConfig.directives[key] = cspConfig.directives[key].concat(
+      cspExtensions[key]
+    );
+  } else {
+    cspConfig.directives[key] = cspExtensions[key];
+  }
+});
 
 // // Attach a unique "nonce" to every response.  This allows use to declare
 // // inline scripts as being safe for execution against our content security policy.

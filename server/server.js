@@ -13,6 +13,8 @@ const host = customHost || null; // Let http.Server use its default IPv6/4 host
 const prettyHost = customHost || 'localhost';
 const port = parseInt(process.env.PORT, 10) || 3000;
 
+const security = require('./Middleware/security');
+
 const app = next({ dev: isDev });
 const handle = app.getRequestHandler();
 
@@ -38,6 +40,9 @@ app.prepare().then(() => {
   const server = express();
 
   server.use(compression({ threshold: 0 }));
+
+  // Apply Middleware to the Routes
+  server.use(security.securityMiddleware);
 
   // Set up reouter handler by Next.JS
   server.use(routerHandler);
