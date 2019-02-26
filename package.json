@@ -18,7 +18,7 @@
   "dependencies": {
     "@babel/plugin-transform-flow-strip-types": "^7.2.3",
     "@zeit/next-sass": "^1.0.1",
-    "apollo-boost": "^0.1.27",
+    "apollo-boost": "^0.3.0",
     "chalk": "2.4.2",
     "compression": "1.7.3",
     "cross-env": "^5.2.0",
