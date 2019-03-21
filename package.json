@@ -16,7 +16,7 @@
     "precommit": "lint-staged"
   },
   "dependencies": {
-    "@babel/plugin-transform-flow-strip-types": "^7.2.3",
+    "@babel/plugin-transform-flow-strip-types": "^7.4.0",
     "@zeit/next-sass": "^1.0.1",
     "apollo-boost": "^0.3.0",
     "chalk": "2.4.2",
