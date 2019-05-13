@@ -1,4 +1,4 @@
-/* flow */
+/* @flow */
 
 const uuid = require('uuid');
 const hpp = require('hpp');

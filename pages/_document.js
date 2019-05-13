@@ -1,8 +1,10 @@
 // @flow
 
-import Document, { Head, Main, NextScript } from 'next/document';
+import Document from 'next/document';
 import Helmet from 'react-helmet';
 import { ServerStyleSheet } from 'styled-components';
+
+import ServerHTML from '../server/ServerHTML';
 
 export default class MyDocument extends Document {
   static async getInitialProps({ renderPage }) {
@@ -38,19 +40,12 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <html lang="en" {...this.helmetHtmlAttrComponents()}>
-        <Head>
-          <meta name="robots" content="index,follow" />
-          <meta httpEquiv="expires" content="10800" />
-          <meta name="generator" content="NextJS PWA 1.0.0" />
-          {this.helmetHeadComponents()}
-          {this.props.styleTags}
-        </Head>
-        <body>
-          <Main />
-          <NextScript />
-        </body>
-      </html>
+      <ServerHTML
+        htmlAttributes={this.helmetHtmlAttrComponents()}
+        headerElements={this.helmetHeadComponents()}
+        headerStyleTags={this.props.styleTags}
+        nonce={this.props.nonce}
+      />
     );
   }
 }
