@@ -5591,10 +5591,10 @@ next@^8.0.1:
     worker-farm "1.5.2"
     ws "6.1.2"
 
-ngrok@3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/ngrok/-/ngrok-3.2.0.tgz#7c033926e087987a42892d323795e3711021576b"
-  integrity sha512-1aZ/Qr+zmn3Y96CtSxGt7wxFwGVHzbF5FbLJ7GBcB7T/I9NOycW9rhsWYJiDB45CO7BLGCjnWE27ZAa0kQU8UQ==
+ngrok@3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/ngrok/-/ngrok-3.2.1.tgz#b9db022fce862711122e404b4763145eb6387aa3"
+  integrity sha512-gbRPHmAfBgIsgRGXE25c3NZXZXs4mpgPuQSPSq02r8QBk4VMoByiLJXKXrUCQm37x/Kfl8cIsWreWDgdNobtOQ==
   dependencies:
     "@types/node" "^8.10.30"
     decompress-zip "^0.3.2"
