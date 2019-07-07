@@ -13,7 +13,9 @@
     "analyze": "cross-env ANALYZE_BUILD=true npm run build",
     "bundle:view": "webpack-bundle-analyzer .next/records.json",
     "lint-staged": "lint-staged",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "@babel/plugin-transform-flow-strip-types": "^7.2.3",
@@ -39,7 +41,8 @@
     "react-apollo": "^2.4.1",
     "react-dom": "16.8.6",
     "react-helmet": "^5.2.0",
-    "styled-components": "4.2.0"
+    "styled-components": "4.2.0",
+    "snyk": "^1.189.0"
   },
   "description": "React NextJS Apollo GraphQL Boilerplate",
   "author": "Gufran Mirza <gufranmirza1@gmail.com>",
@@ -74,18 +77,19 @@
     "babel-eslint": "10.0.1",
     "babel-plugin-styled-components": "^1.10.0",
     "eslint": "5.16.0",
-    "eslint-config-airbnb": "17.1.0",
-    "eslint-config-prettier": "5.0.0",
+    "eslint-config-airbnb": "17.1.1",
+    "eslint-config-prettier": "6.0.0",
     "eslint-plugin-import": "2.16.0",
-    "eslint-plugin-jsx-a11y": "6.2.1",
+    "eslint-plugin-jsx-a11y": "6.2.2",
     "eslint-plugin-prettier": "3.1.0",
-    "eslint-plugin-react": "7.14.0",
-    "husky": "2.4.0",
+    "eslint-plugin-react": "7.13.0",
+    "husky": "3.0.0",
     "lint-staged": "8.1.6",
     "ngrok": "3.2.1",
     "nodemon": "1.18.9",
     "pre-commit": "1.2.2",
     "prettier": "1.18.0",
     "webpack-bundle-analyzer": "3.3.0"
-  }
+  },
+  "snyk": true
 }
