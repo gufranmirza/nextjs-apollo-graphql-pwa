@@ -86,7 +86,7 @@
     "husky": "3.0.3",
     "lint-staged": "8.1.6",
     "ngrok": "3.2.5",
-    "nodemon": "1.18.9",
+    "nodemon": "1.19.4",
     "pre-commit": "1.2.2",
     "prettier": "1.18.0",
     "webpack-bundle-analyzer": "3.4.0"
