@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -36,3 +36,40 @@ patch:
         patched: '2019-07-03T22:14:55.929Z'
     - next > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
         patched: '2019-07-03T22:14:55.929Z'
+  SNYK-JS-LODASH-567746:
+    - hpp > lodash:
+        patched: '2020-04-30T22:17:48.606Z'
+    - next > @babel/core > lodash:
+        patched: '2020-04-30T22:17:48.606Z'
+    - node-sass > sass-graph > lodash:
+        patched: '2020-04-30T22:17:48.606Z'
+    - styled-components > babel-plugin-styled-components > lodash:
+        patched: '2020-04-30T22:17:48.606Z'
+    - '@zeit/next-sass > sass-loader > async > lodash':
+        patched: '2020-04-30T22:17:48.606Z'
+    - next > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2020-04-30T22:17:48.606Z'
+    - styled-components > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2020-04-30T22:17:48.606Z'
+    - next > autodll-webpack-plugin > webpack-merge > lodash:
+        patched: '2020-04-30T22:17:48.606Z'
+    - node-sass > gaze > globule > lodash:
+        patched: '2020-04-30T22:17:48.606Z'
+    - next > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2020-04-30T22:17:48.606Z'
+    - styled-components > babel-plugin-styled-components > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2020-04-30T22:17:48.606Z'
+    - next > @babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash:
+        patched: '2020-04-30T22:17:48.606Z'
+    - next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash:
+        patched: '2020-04-30T22:17:48.606Z'
+    - next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-04-30T22:17:48.606Z'
+    - next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-04-30T22:17:48.606Z'
+    - next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-04-30T22:17:48.606Z'
+    - next > autodll-webpack-plugin > lodash:
+        patched: '2020-04-30T22:17:48.606Z'
+    - next > styled-jsx > babel-types > lodash:
+        patched: '2020-04-30T22:17:48.606Z'
