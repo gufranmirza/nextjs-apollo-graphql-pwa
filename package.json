@@ -89,7 +89,7 @@
     "nodemon": "1.18.9",
     "pre-commit": "1.2.2",
     "prettier": "1.18.0",
-    "webpack-bundle-analyzer": "3.4.0"
+    "webpack-bundle-analyzer": "3.8.0"
   },
   "snyk": true
 }
