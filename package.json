@@ -35,7 +35,7 @@
     "localforage": "1.7.3",
     "next": "^8.0.1",
     "next-routes": "^1.4.2",
-    "node-sass": "^4.11.0",
+    "node-sass": "^9.0.0",
     "prop-types": "15.7.2",
     "react": "16.9.0",
     "react-apollo": "^2.4.1",
